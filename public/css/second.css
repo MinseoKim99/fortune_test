@@ -1,0 +1,132 @@
+body {
+    background-color: #F5F5F5;
+}
+
+#titleBox {
+    position: relative;
+    width: 500px;
+    height: 80px;
+    top: 80px;
+    left: 33%;
+    border: 4px solid #7B59A6;
+    text-align: center;
+    line-height: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    color: #7B59A6;
+}
+
+#contentsBox {
+    position: relative;
+    width: 500px;
+    height: 250px;
+    left: 33%;
+    top: 130px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #7B59A6;
+}
+
+/* #contents {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #7B59A6;
+} */
+
+#colorBox {
+    position: relative;
+    width: 225px;
+    height: 95px;
+    left: 33%;
+    top: 165px;
+    border: 4px solid #7B59A6;
+}
+
+#colorTitle {
+    margin: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align : center;
+    color: #7B59A6;
+}
+
+#color {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align : center;
+    color: #7B59A6;
+}
+
+#timeBox {
+    position: relative;
+    width: 225px;
+    height: 95px;
+    left: 55%;
+    top: 62px;
+    border: 4px solid #7B59A6;
+
+}
+
+#timeTitle {
+    margin: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align : center;
+    color: #7B59A6;
+}
+
+#time {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align : center;
+    color: #7B59A6;
+
+}
+
+#band {
+    position: relative;
+    left: 34%;
+    top: 110px;
+    width: 70px;
+    height: 70px;
+}
+
+#facebook {
+    position: relative;
+    left: 39%;
+    top: 110px;
+    width: 70px;
+    height: 70px;
+}
+
+#instagram {
+    position: relative;
+    left: 44%;
+    top: 110px;
+    width: 70px;
+    height: 70px;
+}
+
+#kakaotalk {
+    position: relative;
+    left: 49%;
+    top: 110px;
+    width: 70px;
+    height: 70px;
+}
