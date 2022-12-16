@@ -7,8 +7,10 @@ const express = require("express"),
 
 app.set("port", process.env.PORT || 80);
 app.set("view engine", "ejs");
-
 app.use(express.static("public"));
+
+db.sequelize.sync();
+
 app.use(
     express.urlencoded({
         extended: false
@@ -16,7 +18,7 @@ app.use(
 );
 app.use(express.json());
 
-app.get("/", firstController.showFirst);
+// app.get("/", firstController.showFirst);
 app.get("/fortune", homeController.showFortune);
 
 app.listen(app.get("port"), () => {
