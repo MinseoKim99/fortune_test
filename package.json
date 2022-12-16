@@ -17,7 +17,6 @@
     "sequelize": "^6.27.0"
   },
   "description": "",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shinyj1/fortune_test.git"
